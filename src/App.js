@@ -21,7 +21,7 @@ function App() {
     };
 
     return (
-        <Router basename="/">
+        <Router basename="/Vampire-Bloodlust">
             {showSplash ? (
                 <SplashScreen onFinish={handleSplashFinish} />
             ) : (
