@@ -13,7 +13,7 @@ const SplashScreen = ({ onFinish }) => {
         // LLAMA A LA FUNCION 'onFinish' ASOCIADA AL METODO handleSplashFinish DEL App.js
         onFinish();
       }
-    }, 30000);
+    }, 4500);
     // CLEAN THE TIMER WHEN THE COMPONENT IS DISASSEMBLED
     // LIMPIA EL TEMPORIZADOR CUANDO EL COMPONENTE SE DESMONTA
     return () => clearTimeout(timer);
