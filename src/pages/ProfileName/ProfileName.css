@@ -1,0 +1,103 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden; /* Evita el scroll vertical */
+    text-align: center;
+    background-image: url('../../../public/background/main.png');
+    background-size: cover;
+    position: relative;
+
+    /* Necesario para que los elementos se posicionen de forma adecuada */
+}
+
+.profile-header {
+    width: 100%;
+    max-width: 600px;
+    margin: 0;
+    position: absolute;
+    /* Lo coloca en la parte superior */
+    top: 0;
+    /* Asegura que esté pegado al top */
+    left: 0;
+    z-index: 10;
+    /* Asegura que el header esté por encima del contenido */
+}
+
+.profile-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 80px;
+    /* Espacio para que el contenido no quede debajo del header */
+}
+
+.profile-input {
+    background-color: #1a1a1a;
+    /* Fondo oscuro */
+    color: white;
+    /* Dorado envejecido */
+    font-family: 'Old English Text MT', serif;
+    font-size: 18px;
+    padding: 10px;
+    border: 2px solid #a00202;
+    /* Bordes oscuros */
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+    /* Efecto de brillo sutil */
+    text-align: center;
+}
+
+.profile-input::placeholder {
+    color: #777;
+    /* Color tenue para el placeholder */
+}
+
+.profile-input:focus {
+    border-color: #ff0000;
+    /* Oro brillante al enfocar */
+    box-shadow: 0 0 15px rgba(216, 9, 9, 0.7);
+}
+
+.profile-button {
+    cursor: pointer;
+    width: 190px;
+    height: 50px;
+    padding: 0;
+    border: none;
+    background: none;
+    position: relative;
+}
+
+.profile-button:focus {
+    outline: none;
+    box-shadow: none;
+    background: none;
+    border: none;
+}
+
+.profile-button {
+    -webkit-tap-highlight-color: transparent;
+}
+
+.send-button {
+    width: 100%;
+}
+
+.button-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: cinzel;
+    pointer-events: none;
+}
