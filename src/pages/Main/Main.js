@@ -4,16 +4,20 @@ import StatusBar from '../../components/StatusBar/StatusBar';
 import Profile from '../../components/Profile/Profile';
 import ActionsMenu from '../../components/ActionsMenu/ActionsMenu';
 
+import NoCopyImages from  '../../components/NoCopyImages/NoCopyImages';
+
 import './Main.css';
 
 const Main = () => {
 
     return (
-        <div>
+        <div className='background'>
+            <NoCopyImages>
             <LevelBar />
-            {/* <StatusBar />
+            <StatusBar />
             <Profile />
-            <ActionsMenu /> */}
+            <ActionsMenu />
+            </NoCopyImages>
         </div>
     );
 };

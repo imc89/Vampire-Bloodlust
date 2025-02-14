@@ -1,0 +1,10 @@
+.background {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Ocupar toda la pantalla */
+    background-image: url('../../../public/background/main.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed; /* Fija la pantalla */
+}

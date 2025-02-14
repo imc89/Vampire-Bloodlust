@@ -44,7 +44,7 @@ const ProfileName = () => {
               className="profile-input"
             />
             <button onClick={handleSubmit} className="profile-button">
-             <img  className="send-button" alt="name-button" src={`${process.env.PUBLIC_URL}/interface/buttons/button.png`} />
+             <img  className="send-button" alt="name-button" src={`${process.env.PUBLIC_URL}/interface/buttons/button_send.png`} />
              <span className="button-text">ENVIAR</span>
             </button>
           </>

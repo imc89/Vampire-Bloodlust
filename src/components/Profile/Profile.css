@@ -1,0 +1,61 @@
+.frame-container {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    background-color: black;
+}
+
+.profile-frame {
+    position: relative;
+    width: 100%;
+    /* Ajusta el tamaño según tu imagen */
+    height: auto;
+    display: block;
+    z-index: 9999;
+}
+
+.profile-image {
+    position: absolute;
+    opacity: 0.9;
+    top: 5%;
+    width: 212px;
+    height: 230px;
+    background-color: #d41e1e;
+    box-shadow: inset 4px 20px 20px 20px rgb(0 0 0 / 100%);
+}
+
+.profile-name {
+    position: absolute;
+    color: white;
+    top: 20%;
+    left: 55%;
+    z-index: 1;
+    font-family: 'Cinzel';
+}
+
+.profile-level-tag {
+    position: absolute;
+    color: white;
+    top: 40%;
+    left: 60%;
+    z-index: 1;
+    font-family: 'Cinzel';
+}
+
+.profile-id {
+    position: absolute;
+    top: 81%;
+    left: 45%;
+    width: 80%;
+    color: white;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    font-family: 'cinzel';
+    text-align: left;
+}
+
+.id-number {
+    font-size: 16px;
+}

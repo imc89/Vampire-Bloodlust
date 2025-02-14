@@ -1,0 +1,49 @@
+.status-bar {
+    background: linear-gradient(180deg, hsla(43, 3%, 58%, 1) 0%, hsla(0, 0%, 0%, 1) 19%, hsla(0, 0%, 0%, 1) 76%, hsla(37, 5%, 20%, 1) 100%, hsla(0, 0%, 0%, 1) 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.content-energy,
+.content-health,
+.content-rage,
+.content-clan {
+    margin: 5px;
+}
+
+.data-energy,
+.data-health,
+.data-rage,
+.data-clan {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.energy-icon,
+.health-icon,
+.rage-icon,
+.clan-icon {
+    width: 20px;
+}
+
+.count {
+    color: #fccc00;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'cinzel';
+}
+
+.count-total {
+    color: #fccc00;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'cinzel';
+}
+
+.tag {
+    color: white;
+    font-family: 'cinzel';
+}

@@ -3,14 +3,16 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100vw;
     height: 100vh;
-    overflow: hidden; /* Evita el scroll vertical */
     text-align: center;
     background-image: url('../../../public/background/main.png');
     background-size: cover;
-    position: relative;
-
-    /* Necesario para que los elementos se posicionen de forma adecuada */
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed; /* Fija la pantalla */
+    top: 0;
+    left: 0;
 }
 
 .profile-header {
@@ -32,8 +34,6 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
-    margin-top: 80px;
-    /* Espacio para que el contenido no quede debajo del header */
 }
 
 .profile-input {

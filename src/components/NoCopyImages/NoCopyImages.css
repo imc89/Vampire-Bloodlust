@@ -1,0 +1,10 @@
+.no-copy-images {
+    user-select: none; /* Desactiva la selección de texto */
+    pointer-events: none; /* Desactiva la interacción con los elementos dentro del div */
+  }
+  
+  .no-copy-images img {
+    pointer-events: none; /* Desactiva los clics en las imágenes */
+    -webkit-user-drag: none; /* Desactiva el arrastre de las imágenes en Webkit (Chrome, Safari) */
+  }
+  
