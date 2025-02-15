@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Vampire-Bloodlust/static/css/main.7bf06848.css",
-    "main.js": "/Vampire-Bloodlust/static/js/main.6b5b5997.js",
+    "main.css": "/Vampire-Bloodlust/static/css/main.ff8d9e86.css",
+    "main.js": "/Vampire-Bloodlust/static/js/main.5898e7f5.js",
     "static/js/488.8f91fcbc.chunk.js": "/Vampire-Bloodlust/static/js/488.8f91fcbc.chunk.js",
     "static/media/background.png": "/Vampire-Bloodlust/static/media/background.eb0de52a2e2662cf8530.png",
     "static/media/main.png": "/Vampire-Bloodlust/static/media/main.5cbc88e1650b6fb3913c.png",
     "index.html": "/Vampire-Bloodlust/index.html",
-    "main.7bf06848.css.map": "/Vampire-Bloodlust/static/css/main.7bf06848.css.map",
-    "main.6b5b5997.js.map": "/Vampire-Bloodlust/static/js/main.6b5b5997.js.map",
+    "main.ff8d9e86.css.map": "/Vampire-Bloodlust/static/css/main.ff8d9e86.css.map",
+    "main.5898e7f5.js.map": "/Vampire-Bloodlust/static/js/main.5898e7f5.js.map",
     "488.8f91fcbc.chunk.js.map": "/Vampire-Bloodlust/static/js/488.8f91fcbc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bf06848.css",
-    "static/js/main.6b5b5997.js"
+    "static/css/main.ff8d9e86.css",
+    "static/js/main.5898e7f5.js"
   ]
 }
